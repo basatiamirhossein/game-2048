@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>۲۰۴۸</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>۲۰۴۸</h1>
+      <div class="scores">
+        <div class="score-box">
+          <div class="score-label">امتیاز</div>
+          <div class="score-value" id="score">0</div>
+        </div>
+        <div class="score-box">
+          <div class="score-label">بهترین</div>
+          <div class="score-value" id="best-score">0</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <p class="instructions">با کلیدهای جهت‌دار یا کشیدن انگشت، بلوک‌ها را حرکت بده و یکی شو تا به ۲۰۴۸ برسی!</p>
+      <button id="new-game-btn">بازی جدید</button>
+    </div>
+
+    <div class="game-container">
+      <div class="grid-background" id="grid-background"></div>
+      <div class="tile-container" id="tile-container"></div>
+      <div class="game-message" id="game-message">
+        <p id="message-text"></p>
+        <button id="try-again-btn">دوباره تلاش کن</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
